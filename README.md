@@ -17,6 +17,8 @@ go build
 ```
 4. Supply the necessary details
 
+xxxxxx | yyyy
+
 Root CA Cert Path - Path to the AD's CA Cert
 
 URI - hostname/IP and port address of the AD e.g. ldap.example.com:389
