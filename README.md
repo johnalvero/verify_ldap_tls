@@ -29,3 +29,20 @@ If a successful connectivity is established, the following will be displayed:
 ```
 OK: Connectivity verified
 ```
+
+## Common Failure Scenarios
+
+Root CA not found
+```
+2018/03/22 03:24:11 Couldn't load file%!(EXTRA *os.PathError=open /etc/openldap/cacerts/ca.pem: no such file or directory)
+```
+
+Connectivity error
+```
+2018/03/22 03:27:11 LDAP Result Code 200 "Network Error": dial tcp 1.1.1.1:389: i/o timeout
+```
+
+Invalid Credentials
+```
+2018/03/22 03:28:56 LDAP Result Code 49 "Invalid Credentials": 80090308: LdapErr: DSID-0C09042A, comment: AcceptSecurityContext error, data 52e, v3839
+```
