@@ -17,6 +17,8 @@ go build
 ```
 4. Supply the necessary details
 
+xxxx | yyyy
+---- | ----
 xxxxxx | yyyy
 
 Root CA Cert Path - Path to the AD's CA Cert
