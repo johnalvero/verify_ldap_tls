@@ -8,6 +8,7 @@ git clone https://github.com/johnalvero/verify_ldap_tls.git
 ```
 2. Build
 ```
+go get gopkg.in/ldap.v2
 cd verify_ldap_tls
 go build
 ```
